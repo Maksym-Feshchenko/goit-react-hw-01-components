@@ -1,0 +1,32 @@
+.history {
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .history th,
+  .history td {
+    padding: 10px;
+    border: 1px solid #674d4d;
+  }
+  
+  .history th {
+    background-color: #d38e8e;
+    font-weight: bold;
+  }
+  
+  .history tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .history tbody tr:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .history td:first-child {
+    text-align: left;
+  }
+  
