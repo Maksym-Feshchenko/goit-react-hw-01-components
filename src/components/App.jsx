@@ -13,13 +13,13 @@ import transactions from '../transactions.json';
 export const App = () => {
   return (
     <div
-      style={{
-        height: '100vh',
-        display: 'grid',
-        justifyContent: 'center',
-        alignItems: 'center',
-        // color: '#010101'
-      }}
+      // style={{
+      //   height: '100vh',
+      //   display: 'grid',
+      //   justifyContent: 'center',
+      //   alignItems: 'center',
+      //   // color: '#010101'
+      // }}
     >
       <Profile
       username={user.username}
