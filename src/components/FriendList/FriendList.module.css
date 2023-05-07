@@ -1,17 +1,20 @@
-/* .friend_list {
+.friend_list {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .item {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    justify-content: start;
-    border: 1px solid red;
-    background-color: antiquewhite;
+    margin: 20px;
+    width: 450px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background-color: #636457;
   }
   
   .avatar {
@@ -20,6 +23,7 @@
   
   .name {
     font-weight: bold;
+    color: #ffffff;
   }
   
   .status {
@@ -35,11 +39,12 @@
     width: 20px;
     height: 20px;
     border-radius: 50px;
-    background-color: green;
-    margin-right: 30px;
+    background-color: rgb(0, 255, 0);
+    margin-left: 30px;
+    margin-right: 30px;    
   }
   
   .statusOfline {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
   }
-   */
+  

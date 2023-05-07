@@ -11,6 +11,7 @@ export const Profile = ({avatar, username, tag, location, stats}) => {
       src={avatar}
       alt={avatar}
       className={css.avatar}
+      width={200}
     />
     <p className={css.name}>{username}</p>
     <p className={css.tag}>@{tag}</p>
